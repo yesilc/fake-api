@@ -1,0 +1,22 @@
+// >webpack-dev-server  server olusturmaya yarıyor
+// >npm install komutunun girerek devDependencies'teki modülleri yüklüyoruz
+//daha sonra package.json dosyasında script bölümündeki komutları çalıştırıyoruz
+// >npm run build
+//<script src="./bundles/bundle.js"></script> ekliyoruz
+// >npm run start -> (farklı bir terminalde) webpack serverını çalıştırıyoruz
+//ctrl c + Y ile server kapatılabilir.
+ 
+
+//https://github.com/typicode/json-server
+https://jsonplaceholder.typicode.com/guide/
+//terminal-> npm install -g json-server (-g global olrak kuruluyor) ->farklı bir terminalde
+
+//json-server --watch fake-api/employee.json ->(farklı bir terminalde) json server'ını çalıştırıyor
+
+////////////////////////////////////////////////////////////////////////////
+//   projeyi her başlattığımızda alttaki komutları giriyoruz              //
+//  > npm run start -> (farklı bir terminalde)                            //
+//  > json-server --watch fake-api/employee.json ->(farklı bir terminalde)//
+////////////////////////////////////////////////////////////////////////////
+
+//src'nin altında request ve ui dosyalarını açtık
